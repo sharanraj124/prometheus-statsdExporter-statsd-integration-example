@@ -1,0 +1,10 @@
+mappings:
+    - match: "hits.*"
+      name: "hits"
+      labels:
+          skey: "$1"
+
+    - match: "failed.*"
+      name: "failed"
+      labels:
+          skey: "$1"
